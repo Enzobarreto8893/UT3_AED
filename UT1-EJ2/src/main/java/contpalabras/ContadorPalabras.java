@@ -49,4 +49,25 @@ public class ContadorPalabras {
         }
         return new int[] {contadorVocales, contadorConsonantes};
     }
+
+    public int cantPalabrasMayoresA(String frase, int cantidadCaracteres){
+        int contador = 0;
+        boolean enPalabra = false;
+        int contadorCaracteres = 0;
+        for (int i = 0; i < frase.length(); i++) {
+            char caracter = frase.charAt(i);
+            if (Character.isLetter(caracter)) {
+                enPalabra = true;
+                contadorCaracteres++;
+            }
+            if (caracter == ' ' || i == frase.length() - 1) {
+                if (enPalabra && contadorCaracteres > cantidadCaracteres) {
+                    contador++;
+                }
+                enPalabra = false;
+                contadorCaracteres = 0;
+            }
+        }
+        return contador;
+    }
 }
