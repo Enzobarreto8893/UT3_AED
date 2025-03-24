@@ -1,0 +1,5 @@
+El metodo obtenerLineas lee todas las lineas de el archivo de texto que se le pase por parametro.
+Utiliza el metodo de java Files.readAllLines(); y devuelve un array de strings con las lineas del archivo.
+
+El metodo cantPalabras cuenta el numero total de palabras en un conjunto de lineas. Suma la cantidad de cada linea
+con el metodo contarPalabras. Termina devolviendo el numero total de palabras en todas las lineas.
