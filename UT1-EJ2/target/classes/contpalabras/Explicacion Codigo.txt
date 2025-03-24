@@ -1,0 +1,12 @@
+El metodo obtenerConsonantesYVocales que recibe una frase por parametro, recorre todos los caracteres
+de la frase con un for y primero checkea que sea una letra (para evitar espacios, numeros, etc).
+Luego se llama al metodo esVocal para checkear si ese caracter es vocal, subiendo el contador de vocales
+sino el de consonantes.
+Devulve un array de enteros, siendo el puesto 0 las vocales y el 1 las consonantes.
+
+El metodo cantPalabrasMayoresA recibe una frase y la cantidad X de caracteres por parametro, recorre los caracteres
+de la frase con un for y checkea si estamos dentro de una palabra viendo si el caracter es una letra.
+Luego va aumentando el contador de caracteres iniciado en 0. Si en la siguiente iteraccion el caracter es espacio o algo que no sea letra
+vuelve a false la variabl de enPalabra y si el contador anteror es mayor al pasado por parametro, sube el contador de palabras mayores a X caracteres.
+Devuelve un entero siendo el contador de palabras que son mayores a la cantidad de caracteres pasadas por parametro.
+
