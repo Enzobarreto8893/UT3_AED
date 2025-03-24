@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="UT1-EJ2-subA" />
+        <module name="UT1-EJ1" />
+        <module name="TA2-EJ3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="TA1-EJ2" target="24" />
       <module name="UT1-Ej1" target="24" />
     </bytecodeTargetLevel>
   </component>
