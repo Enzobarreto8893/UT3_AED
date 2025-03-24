@@ -1,0 +1,7 @@
+a) Descripción de la funcionalidad solicitada (el conteo de palabras):
+    El objetivo del programa es contar el número de palabras en una frase proporcionada por el usuario. Una palabra
+se considera válida si contiene al menos un carácter alfabético.
+    Para lograr esto, se crea una clase llamada , que incluye el método . Este método recorre cada carácter de la frase,
+evaluando si es una letra, un espacio o el final de la frase. Cada vez que se detecta un espacio o se llega al final de
+la frase, y la secuencia actual cumple con el criterio de contener al menos una letra, se incrementa un contador para
+registrar que se ha identificado una palabra
